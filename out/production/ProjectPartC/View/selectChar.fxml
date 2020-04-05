@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="591.0" prefWidth="600.0" style="-fx-background-image: url(Images/selectCharBack.jpg)" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.CharController">
+   <children>
+      <Button fx:id="captainButton" layoutX="172.0" layoutY="227.0" mnemonicParsing="false" onAction="#captain" prefHeight="75.0" prefWidth="86.0" style="-fx-background-image: url(Images/cap.png); -fx-background-size: 100% 100%;" />
+      <Button fx:id="deadpoolButton" layoutX="64.0" layoutY="227.0" mnemonicParsing="false" onAction="#deadpool" prefHeight="75.0" prefWidth="79.0" style="-fx-background-image: url(Images/deadpool.jpeg); -fx-background-size: 100% 100%;" />
+      <Button layoutX="283.0" layoutY="227.0" mnemonicParsing="false" onAction="#groot" prefHeight="75.0" prefWidth="86.0" style="-fx-background-image: url(Images/groot.png); -fx-background-size: 100% 100%;" />
+      <Button layoutX="64.0" layoutY="337.0" mnemonicParsing="false" onAction="#hulk" prefHeight="75.0" prefWidth="79.0" style="-fx-background-image: url(Images/hulk.png); -fx-background-size: 100% 100%;" />
+      <Button layoutX="176.0" layoutY="337.0" mnemonicParsing="false" onAction="#iron" prefHeight="75.0" prefWidth="79.0" style="-fx-background-image: url(Images/iron.png); -fx-background-size: 100% 100%;" />
+      <Button layoutX="287.0" layoutY="337.0" mnemonicParsing="false" onAction="#thor" prefHeight="75.0" prefWidth="79.0" style="-fx-background-image: url(Images/thor.png); -fx-background-size: 100% 100%;" />
+   </children>
+</AnchorPane>

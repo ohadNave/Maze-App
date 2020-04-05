@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="305.0" prefWidth="578.0" style="-fx-background-image: url(Images/propBack.jpg); -fx-background-size: 100% 100%;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.propController">
+   <children>
+      <Label layoutX="211.0" layoutY="119.0" prefHeight="17.0" prefWidth="117.0" text="Searching Algorithm" textFill="#fcfafa" />
+      <Label layoutX="214.0" layoutY="169.0" prefHeight="17.0" prefWidth="107.0" text="Generator Type" textFill="WHITE" />
+      <Label fx:id="label" layoutX="211.0" layoutY="58.0" />
+      <TextField fx:id="algo" disable="true" editable="false" layoutX="338.0" layoutY="115.0" />
+      <TextField fx:id="generator" disable="true" editable="false" layoutX="338.0" layoutY="165.0" />
+
+   </children>
+</Pane>
